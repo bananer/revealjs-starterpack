@@ -11,8 +11,6 @@
         "start": "webpack-dev-server"
     },
     "dependencies": {
-        "headjs": "~1",
-        "highlight.js": "~9",
         "reveal.js": "~3"
     },
     "devDependencies": {
