@@ -30,14 +30,10 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './index.html'
         }),
-
-        new CopyWebpackPlugin([
-            {
-                from: {
-                    glob: 'content/*.md'
-                }
-            }
-        ])
+        new HtmlWebpackPlugin({
+            filename: 'template.html',
+            template: './template.html'
+        })
     ],
     devServer: {
         noInfo: true,
