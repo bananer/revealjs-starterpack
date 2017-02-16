@@ -1,3 +1,19 @@
 @import url('~reveal.js/css/reveal.css');
 @import url('~reveal.js/css/theme/black.css');
 @import url('~reveal.js/lib/css/zenburn.css');
+.reveal .controls .navigate-left,
+.reveal .controls .navigate-left.enabled {
+    border-right-color: darkgrey;
+}
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-right.enabled {
+    border-left-color: darkgrey;
+}
+.reveal .controls .navigate-up,
+.reveal .controls .navigate-up.enabled {
+    border-bottom-color: darkgrey;
+}
+.reveal .controls .navigate-down,
+.reveal .controls .navigate-down.enabled {
+    border-top-color: darkgrey;
+}
