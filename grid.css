@@ -1,0 +1,20 @@
+.row {
+    position: relative;
+    width: 100%;
+}
+.row .col-3,
+.row .col-4,
+.row .col-6 {
+    float: left;
+    margin: 0.5rem 2%;
+    min-height: 0.125rem;
+}
+.col-3 {
+    width: 21%;
+}
+.col-4 {
+    width: 29.33%;
+}
+.col-6 {
+    width: 46%;
+}
