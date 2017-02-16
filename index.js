@@ -9,7 +9,11 @@ require('script-loader!reveal.js/plugin/markdown/markdown.js');
 window.Reveal.initialize({
     history: true,
     progress: false,
-    dependencies: [ /* Loaded manually below */ ]
+    dependencies: [ /* Loaded manually below */ ],
+
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+    transitionSpeed: 'default', // default/fast/slow
+    backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
 });
 
 require('script-loader!reveal.js/plugin/highlight/highlight.js');
