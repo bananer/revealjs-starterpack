@@ -3,6 +3,9 @@ import './main.css';
 require('reveal.js/lib/js/head.min.js');
 window.Reveal = require('reveal.js');
 
+require('script-loader!reveal.js/plugin/markdown/marked.js');
+require('script-loader!reveal.js/plugin/markdown/markdown.js');
+
 window.Reveal.initialize({
     history: true,
     progress: false,
