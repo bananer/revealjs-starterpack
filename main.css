@@ -18,3 +18,43 @@
 .reveal .controls .navigate-down.enabled {
     border-top-color: darkgrey;
 }
+.reveal figure figcaption {
+    font-size: 12pt;
+}
+.reveal pre code {
+    max-height: 100%;
+}
+.reveal p > code {
+    background: #3f3f3f;
+    color: #dcdcdc;
+    padding: 2px 5px;
+}
+.reveal .box {
+    background: #3f3f3f;
+    width: 90%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 6px 6px rgba(20, 22, 133, 0.7)
+}
+.reveal .smalltext {
+    font-size: 16px;
+}
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+    width: 90%;
+    margin: 0px auto 25px;
+    padding: 5px 5px;
+    text-transform: none;
+    border: solid 2px darkgrey;
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 6px 6px rgba(255, 255, 255, 0.3);
+}
+.reveal section img {
+    border: none;
+    margin: 10px auto;
+    background-color: transparent;
+}
+.reveal section img.white-bg {
+    background-color: white;
+}
