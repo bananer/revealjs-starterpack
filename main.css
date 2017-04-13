@@ -36,6 +36,9 @@
     padding-bottom: 20px;
     box-shadow: 0px 0px 6px 6px rgba(20, 22, 133, 0.7)
 }
+.reveal .box.no-pb {
+    padding-bottom: 0;
+}
 .reveal .smalltext {
     font-size: 16px;
 }
