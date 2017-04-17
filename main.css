@@ -60,3 +60,7 @@
 .reveal section img.white-bg {
     background-color: white;
 }
+
+.reveal small {
+    vertical-align: baseline;
+}
