@@ -27,3 +27,11 @@ require('script-loader!reveal.js/plugin/zoom-js/zoom.js');
 var sheet = window.location.search.match(/print-pdf/gi) ?
     require('style-loader!reveal.js/css/print/pdf.css') :
     require('style-loader!reveal.js/css/print/paper.css');
+
+Reveal.addEventListener( 'ready', function( event ) {
+	document.querySelectorAll('clone').forEach(function(target) {
+        document.querySelectorAll(target.getAttribute('selector')).forEach(function(src){
+            target.appendChild(src.cloneNode(true));
+        });
+    });
+});
