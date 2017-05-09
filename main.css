@@ -95,3 +95,53 @@
 .reveal img.fix-height {
     height: 450px;
 }
+
+.reveal table thead {
+    font-weight: bold;
+    border-bottom: solid 2px;
+}
+
+.reveal table td {
+    border-top: none;
+    border-bottom: none;
+    border-left: solid 2px white;
+}
+
+.reveal table td:nth-child(1) {
+    border-left: none;
+}
+
+.reveal table.table-xl td {
+    padding: 2px 10px;
+    font-size: 34px;
+}
+
+.reveal table.table-m td {
+    padding: 2px 6px;
+    font-size: 24px;
+}
+
+.reveal table tbody tr:nth-child(odd) {
+    background-color: #606060;
+}
+
+.reveal table tbody.center-col-1 tr td:nth-child(1) {
+    text-align: center;
+}
+.reveal table tbody.center-col-2 tr td:nth-child(2) {
+    text-align: center;
+}
+.reveal table tbody.center-col-3 tr td:nth-child(3) {
+    text-align: center;
+}
+.reveal table tbody.center-col-4 tr td:nth-child(4) {
+    text-align: center;
+}
+.reveal table tbody.center-col-5 tr td:nth-child(5) {
+    text-align: center;
+}
+.reveal table tbody.center-col-6 tr td:nth-child(6) {
+    text-align: center;
+}
+
+}
