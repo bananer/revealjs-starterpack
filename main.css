@@ -34,10 +34,33 @@
     width: 90%;
     margin: 20px auto;
     padding-bottom: 20px;
-    box-shadow: 0px 0px 6px 6px rgba(20, 22, 133, 0.7)
+    box-shadow: 0px 0px 6px 6px rgba(20, 22, 133, 0.7);
+}
+.reveal .box .box {
+    background: black;
+    box-shadow: 0px 0px 6px 6px rgba(133, 22, 20, 0.7);
+}
+.reveal .box .box .box {
+    background: #3f3f3f;
+    box-shadow: 0px 0px 6px 6px rgba(20, 133, 22, 0.7);
+}
+.reveal .box .box-caption {
+    margin-left: 3px;
+    margin-top: 3px;
+    font-size: 28pt;
+    text-align: left;
+}
+.reveal .box .box .box-caption {
+    font-size: 24pt;
 }
 .reveal .box.no-pb {
     padding-bottom: 0;
+}
+.reveal .box.inline-box {
+    display: inline-block;
+    width: unset;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 .reveal .smalltext {
     font-size: 16px;
