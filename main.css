@@ -144,4 +144,10 @@
     text-align: center;
 }
 
+.reveal pre {
+    display: inline-block;
+    width: unset;
+}
+.reveal pre code {
+    padding: 15px 15px;
 }
