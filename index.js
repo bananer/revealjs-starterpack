@@ -47,3 +47,5 @@ Reveal.addEventListener( 'ready', function( event ) {
         target.textContent = url;
     });
 });
+
+require('script-loader!./analytics.js');
