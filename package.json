@@ -6,7 +6,7 @@
     "author": "Philip Frank",
     "license": "MIT",
     "scripts": {
-        "clean": "rm -rf dist",
+        "clean": "rm -rf dist/*",
         "build": "npm run clean && webpack",
         "start": "webpack-dev-server"
     },
