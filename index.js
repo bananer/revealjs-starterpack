@@ -34,4 +34,9 @@ Reveal.addEventListener( 'ready', function( event ) {
             target.appendChild(src.cloneNode(true));
         });
     });
+    document.querySelectorAll('slides-url').forEach(function(target) {
+        var url = location.href;
+        url = url.substring(0, url.indexOf('#'));
+        target.textContent = url;
+    });
 });
