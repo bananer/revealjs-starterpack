@@ -1,10 +1,12 @@
 .row {
     position: relative;
     width: 100%;
+    float: inline-start;
 }
 .row .col-3,
 .row .col-4,
-.row .col-6 {
+.row .col-6,
+.row .col-8 {
     float: left;
     margin: 0.5rem 2%;
     min-height: 0.125rem;
@@ -17,4 +19,7 @@
 }
 .col-6 {
     width: 46%;
+}
+.col-8 {
+    width: 62.66%;
 }
