@@ -6,6 +6,8 @@ window.Reveal = require('reveal.js');
 require('script-loader!reveal.js/plugin/markdown/marked.js');
 require('script-loader!reveal.js/plugin/markdown/markdown.js');
 
+var closing = require('text-loader!./closing.tpl.html');
+
 window.Reveal.initialize({
     history: true,
     progress: false,
@@ -29,6 +31,11 @@ var sheet = window.location.search.match(/print-pdf/gi) ?
     require('style-loader!reveal.js/css/print/paper.css');
 
 Reveal.addEventListener( 'ready', function( event ) {
+    if(closing) {
+        var el = document.createElement('footer');
+        el.innerHTML = closing;
+        document.querySelector('.reveal section:last-child').appendChild(el);
+    }
 	document.querySelectorAll('clone').forEach(function(target) {
         document.querySelectorAll(target.getAttribute('selector')).forEach(function(src){
             target.appendChild(src.cloneNode(true));

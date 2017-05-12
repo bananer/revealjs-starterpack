@@ -161,4 +161,13 @@
 .reveal .monospace * {
     font-family: monospace;
 }
+.reveal footer {
+    font-size: 18pt;
+}
+.reveal footer a {
+    color: white;
+    text-decoration: underline;
+}
+.reveal footer .separator {
+    margin: 0 10px;
 }
