@@ -46,10 +46,12 @@
     padding: 2px 5px;
 }
 .reveal .box {
-    background: #3f3f3f;
     width: 90%;
     margin: 20px auto;
     padding-bottom: 20px;
+}
+.reveal .box, .reveal .box-style {
+    background: #3f3f3f;
     box-shadow: 0px 0px 6px 6px rgba(20, 22, 133, 0.7);
 }
 .reveal .box .box {
