@@ -1,12 +1,14 @@
-.row {
+.reveal .row {
     position: relative;
     width: 100%;
     float: inline-start;
+    margin-bottom: 1rem;
 }
 .row .col-3,
 .row .col-4,
 .row .col-6,
-.row .col-8 {
+.row .col-8,
+.row .col-12 {
     float: left;
     margin: 0.5rem 2%;
     min-height: 0.125rem;
@@ -17,9 +19,12 @@
 .col-4 {
     width: 29.33%;
 }
-.col-6 {
+.col-6, .reveal .box.col-6 {
     width: 46%;
 }
 .col-8 {
     width: 62.66%;
+}
+.col-12 {
+    width: 96%;
 }
