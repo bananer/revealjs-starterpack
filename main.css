@@ -173,3 +173,6 @@
 .reveal footer .separator {
     margin: 0 10px;
 }
+.reveal sub {
+    font-size: 24pt;
+}
